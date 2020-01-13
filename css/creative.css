@@ -561,6 +561,26 @@ pre code {
   margin-left: auto;
 }
 
+.skill-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.node-icon {
+  height: 100px;
+  width: 270px;
+}
+
+.express-icon {
+  height: 100px;
+  width: 190px;
+}
+
+.aws-icon {
+  height: 100px;
+  width: 220px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
