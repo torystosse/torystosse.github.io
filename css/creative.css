@@ -578,7 +578,12 @@ pre code {
 
 .aws-icon {
   height: 100px;
-  width: 220px;
+  width: 260px;
+}
+
+.mongoose-icon {
+  height: 100px;
+  width: 160px;
 }
 
 .skill-section {
