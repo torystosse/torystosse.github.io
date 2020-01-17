@@ -590,6 +590,19 @@ pre code {
   margin: 0 auto;
 }
 
+.portfolio-aside {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+.headshot {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -9616,6 +9629,10 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
+}
+
+.portfolio-section {
+  padding: 1.5rem 0;
 }
 
 #mainNav {

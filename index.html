@@ -66,7 +66,8 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-85 font-weight-light mb-5">Software Engineer  ||  Traveler  ||  Writer</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <!-- Note; change this button to download resume // insert link to resume -->
+          <a class="btn btn-primary btn-xl resume" href="#about">Resume</a>
         </div>
       </div>
     </div>
@@ -78,10 +79,10 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">About Me</h2>
+          <img class="headshot" src="./img/portfolio/headshot.png"></img>
           <hr class="divider light my-4">
           <p class="text-white-85 mb-4">I’m studying Software Engineering at General Assembly with the goal of opening myself to new opportunities. In my previous role, I quickly learned and mastered a code-based air booking software, advancing on to train its functionality to new hires. I grew as a leader and problem solver, and have been able to utilize those qualities and way of thinking to my current opportunities. My passion for problem solving and pushing myself to continue to grow and learn will make me a better developer. </p>
-          <!-- Note; change this button to download resume -->
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
         </div>
       </div>
     </div>
@@ -214,8 +215,13 @@
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
+      <div class="page-section portfolio-section bg-primary">
+      <h2 class="text-center text-white mt-0">Portfolio</h2>
+      <hr class="divider light my-4">
+    </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 col-sm-6">
+
+        <!-- <div class="col-lg-6 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
@@ -227,21 +233,51 @@
               </div>
             </div>
           </a>
-        </div>
-        <div class="col-lg-6 col-sm-6">
+        </div> -->
+
+        <div class="col-lg-6 col-sm-6 portfolio-popup">
           <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
             <img class="img-fluid" src="img/portfolio/poll-ar-bear.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-70">
-                Poll-ar Bear
+            <!-- <div class="portfolio-box-caption"> -->
+              <!-- link to front end repo -->
+              <!-- <div class="project-category text-white-70">
+                <a class="portfolio-link" href="https://github.com/SEI-06/Survey-Client">Front End Repo</a> -->
+              <!-- </div> -->
+              <!-- link to back end repo -->
+              <!-- <div class="project-name">
+                <a class="portfolio-link" href="https://github.com/SEI-06/Survey-API">Back end Repo</a>
               </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
+            </div> -->
           </a>
         </div>
-        <div class="col-lg-6 col-sm-6">
+
+        <div class="col-lg-6 col-sm-6 portfolio-aside">
+          <div class="portfolio-box-caption text-white-85">
+            <div class="project-category">
+              Poll-ar Bear
+            </div>
+            <div class="project-name">
+              <p>A full stack application that allows users to create single-question surveys, take surveys, and view the results of each survey.</p>
+              <p>Technologies used: Javascript, HTML, CSS, AJAX, jQuery, Bootstrap, Handlebars, Express, Node.js, MongoDB, Mongoose.</p>
+              <p><a href="#">Front End Repo</a> | <a href="#">Back End Repo</a> | <a href="https://sei-06.github.io/Survey-Client/" target="_blank">Deployed Site</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 portfolio-aside">
+          <div class="portfolio-box-caption text-white-85">
+            <div class="project-category">
+              Oh, The Places You've Been!
+            </div>
+            <div class="project-name">
+              <p>A full stack application that will allow users to not only track the countries they've visited, and when they visited them, but will allow users to create a wishlist of countries yet to visit.</p>
+              <p>Technologies used: Javascript, HTML, CSS, AJAX, jQuery, Bootstrap, Handlebars, Ruby on Rails and PostgreSQL.</p>
+              <p><a href="#">Front End Repo</a> | <a href="#">Back End Repo</a> | <a href="#">Deployed Site</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 portfolio-popup">
           <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
             <img class="img-fluid travel-tracker" src="img/portfolio/travel-tracker-screenshot.png" alt="">
             <div class="portfolio-box-caption">
@@ -249,12 +285,14 @@
                 Oh, The Places You've Been!
               </div>
               <div class="project-name">
-                A SPA that will allow you to not only track the countries you've visited, and when you visited them, but will allow you to create a wishlist of countries yet to visit.
+                <p>A full stack application that will allow users to not only track the countries they've visited, and when they visited them, but will allow users to create a wishlist of countries yet to visit.</p>
+                <p>Technologies used: Javascript, HTML, CSS, AJAX, jQuery, Bootstrap, Handlebars, Ruby on Rails and PostgreSQL.</p>
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-6 col-sm-6">
+
+        <div class="col-lg-6 col-sm-6 portfolio-popup">
           <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
             <img class="img-fluid" src="img/portfolio/tic-tac-toe-screenshot.png" alt="">
             <div class="portfolio-box-caption">
@@ -262,22 +300,37 @@
                 Tic-Tac-Toe
               </div>
               <div class="project-name">
-                A single player, SPA, tic-tac-toe game.
+                <p>A single player, SPA, tic-tac-toe game.</p>
+                <p>Technologies used: Javascript, HTML, CSS, AJAX, jQuery. Utilized third party Rails API.</p>
               </div>
             </div>
           </a>
         </div>
+
+        <div class="col-lg-6 col-sm-6 portfolio-aside">
+          <div class="portfolio-box-caption text-white-85">
+            <div class="project-category">
+              Tic-Tac-Toe
+            </div>
+            <div class="project-name">
+              <p>A single player, SPA, tic-tac-toe game.</p>
+              <p>Technologies used: Javascript, HTML, CSS, AJAX, jQuery. Utilized third party Rails API.</p>
+              <p><a href="#">Front End Repo</a> | <a href="#">Deployed Site</a></p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+  <!-- <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -319,7 +372,7 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <script src="js/creative.js"></script>
 
 </body>
 
