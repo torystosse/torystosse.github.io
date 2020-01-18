@@ -548,6 +548,10 @@ pre code {
   word-break: normal;
 }
 
+ul {
+  list-style: none;
+}
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -591,7 +595,7 @@ pre code {
 }
 
 .portfolio-aside {
-  background-color: #333333;
+  background-color: #262626;
   padding: 20px;
   text-align: center;
 }
