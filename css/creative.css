@@ -9766,6 +9766,33 @@ header.masthead h1 {
   }
 }
 
+@media (max-width: 600px) {
+  .skill-icon {
+    height: 60px;
+    width: 60px;
+  }
+
+  .node-icon {
+    height: 60px;
+    width: 160px;
+  }
+
+  .express-icon {
+    height: 60px;
+    width: 110px;
+  }
+
+  .aws-icon {
+    height: 60px;
+    width: 110px;
+  }
+
+  .mongoose-icon {
+    height: 60px;
+    width: 95px;
+  }
+}
+
 #card {
   width: 560px;
 }
