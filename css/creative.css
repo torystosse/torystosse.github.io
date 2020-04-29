@@ -586,9 +586,9 @@ ul {
   width: 190px;
 }
 
-.mongoose-icon {
+.java-icon {
   height: 100px;
-  width: 160px;
+  width: 60px;
 }
 
 .skill-section {
@@ -610,6 +610,13 @@ ul {
 
 .modal-body {
   text-align: center;
+}
+
+.other-projects {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 1.5rem 0;
+  width: 100%;
 }
 
 @media (min-width: 576px) {
@@ -9787,9 +9794,9 @@ header.masthead h1 {
     width: 110px;
   }
 
-  .mongoose-icon {
+  .java-icon {
     height: 60px;
-    width: 95px;
+    width: 35px;
   }
 }
 
